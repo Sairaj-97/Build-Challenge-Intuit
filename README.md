@@ -81,7 +81,7 @@ Final destination items: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 ### Output Screenshot
 
-![Assignment 1 Output](screenshots/assignment1_output.png)
+![Assignment 1 Output](screenshot/assignment1_output.png)
 
 ### Technologies Used
 
@@ -252,7 +252,7 @@ Revenue by Product Line:
 
 ### Output Screenshot
 
-![Assignment 2 Output](screenshots/assignment2_output.png)
+![Assignment 2 Output](screenshot/assignment2_output.png)
 
 ### Maven Dependencies (Already Configured in pom.xml)
 
