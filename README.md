@@ -309,8 +309,6 @@ This assignment demonstrates:
 
 ## Author
 
-[Your Name]
+Sairaj Raghuwanshi
 
-## License
 
-This project is part of academic coursework.
