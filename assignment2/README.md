@@ -12,7 +12,7 @@ The application performs the following operations:
 - Performs various analytics using Java Streams:
   - Total revenue
   - Total quantity sold
-  - **Top 5 countries by revenue**
+  - Top 5 countries by revenue
   - Revenue by product line
   - Average price by product line
   - Count of shipped orders
