@@ -1,0 +1,41 @@
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Java / Maven
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Eclipse / IntelliJ / VSCode project files
+
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+.vscode/
+
+# Logs
+*.log
+*.tmp
+
+# OS / Editor Backup Files
+*~
+*.swap
+*.swp
+
+# Build / Cache Files
+*.class
+*.jar
+*.war
+*.ear
+
