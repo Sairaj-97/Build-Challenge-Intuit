@@ -12,7 +12,7 @@ The application performs the following operations:
 - Performs various analytics using Java Streams:
   - Total revenue
   - Total quantity sold
-  - Top 5 countries by revenue**
+  - **Top 5 countries by revenue**
   - Revenue by product line
   - Average price by product line
   - Count of shipped orders
@@ -36,7 +36,9 @@ The application performs the following operations:
 - DEALSIZE  
 
 The CSV is placed under:
+```
 src/main/resources/sales_data_sample.csv
+```
 
 ## Technologies Used
 
@@ -51,13 +53,16 @@ src/main/resources/sales_data_sample.csv
 ## How to Run the Project
 
 ### Build the project
+```bash
 mvn clean package
+```
 
 ### Run the program
+```bash
 mvn exec:java
+```
 
 The program will automatically run `com.assignment2.Main`.
-
 
 ## Unit Testing (JUnit 5)
 
@@ -72,13 +77,15 @@ This project includes comprehensive unit tests to validate:
 - Filtering logic (e.g., shipped orders)
 
 ### Test Files:
+```
 src/test/java/com/assignment2/SalesCSVReaderTest.java
 src/test/java/com/assignment2/SalesAnalysisTest.java
-
+```
 
 ### Run all tests:
-
+```bash
 mvn test
+```
 
 ## Functional Requirements Implemented
 
@@ -108,7 +115,6 @@ mvn test
 - `exec-maven-plugin` — run Main  
 - `junit-jupiter` — tests  
 
-
 ## Conclusion
 
 This assignment demonstrates:
@@ -118,13 +124,4 @@ This assignment demonstrates:
 - Functional programming with Streams  
 - Grouping, aggregation, filtering, and sorting  
 - Practical use of OpenCSV  
-- Clear, formatted analytical output  
-
-
-
-
-
-
-
-
-
+- Clear, formatted analytical output
