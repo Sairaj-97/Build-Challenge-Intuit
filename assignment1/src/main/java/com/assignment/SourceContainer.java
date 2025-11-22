@@ -8,7 +8,7 @@ public class SourceContainer {
 
     public SourceContainer() {
         items = new LinkedList<>();
-        // Pretend data source — you can change values if needed
+        // adding numbers 1 to 10 for testing.
         for (int i = 1; i <= 10; i++) {
             items.add(i);
         }

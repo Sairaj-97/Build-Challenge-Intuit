@@ -19,10 +19,10 @@ public class Producer implements Runnable {
                     System.out.println("Producer produced: " + item);
                     buffer.put(item);
                 }
-                Thread.sleep(100); // Simulate work
+                Thread.sleep(100); // Doing some mock work
             }
 
-            // Mark end of production using -1 sentinel
+            // Mark end of production using -1 
             buffer.put(-1);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
